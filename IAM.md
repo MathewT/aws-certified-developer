@@ -17,3 +17,6 @@ Policy documents are JSON documents and are a key value pair.   Attribute/value
 2. New users have NO permissions when first created.
 3. New users are assigned Access Key ID and Secret Access Key when first created.
 4. Always setup Multi-factor authentication (MFA) on the root account.
+
+
+## ADFS 
