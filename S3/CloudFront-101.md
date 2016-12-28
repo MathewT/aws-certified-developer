@@ -30,5 +30,20 @@ a Region or AZ
 
 5. Objects are cached for the life of the TTL (time to live)
 
+6. You can restrict access to content by enabling Restrict Viewer Access
+and using/specifying signed URLs or signed cookies.
+
 6. You can clear cached objects on-demand (independently of the TTL) but you
 will be charged for it.
+
+
+
+## Lab:  Creating a CDN
+
+1. Create buckets in Sydney and Seoul
+
+2. Upload objects to each bucket
+
+3. Add Everyone Open/Download permissions to each object
+
+4.  
