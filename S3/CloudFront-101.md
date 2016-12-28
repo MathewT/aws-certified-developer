@@ -12,7 +12,7 @@ a Region or AZ
 
 1. Web distribution:  
 
-2. RTMP: Streaming media
+2. RTMP: Streaming Adobe Flash media files
 
 
 
@@ -21,6 +21,8 @@ a Region or AZ
 1. Understand Edge Location is different and/or separate from a Region or AZ
 
 2. Understand the Origin and that an Origin can be non-AWS
+  * You can have multiple *origins* for a single distribution
+  *
 
 3. Distributions (Web, RTMP)
 
