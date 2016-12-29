@@ -5,3 +5,6 @@ the URL.
 
 2. The S3 object bucket will be https.  The website bucket will be http by
 default.
+
+3. S3 Link Format for Website:
+  **http://bucket-name-website.s3-website-region.amazonaws.com**
