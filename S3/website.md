@@ -7,4 +7,4 @@ the URL.
 default.
 
 3. S3 Link Format for Website:
-  **http://bucket-name-website.s3-website-region.amazonaws.com**
+  **http://bucket-name.s3-website-region.amazonaws.com**
