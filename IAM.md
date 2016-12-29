@@ -20,3 +20,5 @@ Policy documents are JSON documents and are a key value pair.   Attribute/value
 
 
 ## ADFS
+
+**Review again and make notes!**
