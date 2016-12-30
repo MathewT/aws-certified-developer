@@ -3,3 +3,7 @@ MESA-LOADER: could not create udev device for fd 32
 MESA-LOADER: could not create udev device for fd 32
 ATTENTION: default value of option force_s3tc_enable overridden by environment.
 [1,3516508736:20:53:00.830431] Native Client module will be loaded at base address 0x000022ef00000000
+[3884:3919:1229/172415:ERROR:connection_factory_impl.cc(369)] Failed to connect to MCS endpoint with error -106
+[1:1:1229/190128:ERROR:PlatformKeyboardEvent.cpp(84)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+[3884:3884:1229/234704:ERROR:chrome_browser_main_extra_parts_x11.cc(66)] X IO error received (X server probably went away)
+[3952:3952:1229/234704:ERROR:x11_util.cc(89)] X IO error received (X server probably went away)
