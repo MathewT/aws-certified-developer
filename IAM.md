@@ -2,6 +2,7 @@
 
 ## Users
   - Universal to all regions and AZs
+
 ## Groups
 
 A way to partition users and apply policies to them collectively.
