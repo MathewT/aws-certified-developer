@@ -1,4 +1,4 @@
-# Lab 1
+# Lab 1 - List all Tables
 
 ## Create DynamoDB and S3 Super Role
   * A role with full access to DynamoDB and S3
@@ -20,4 +20,6 @@
 ```rvm install 2.3.3```
 
 AWS SDK Documentation for Ruby:  http://docs.aws.amazon.com/sdk-for-ruby/v2/developer-guide/
+
+
 
