@@ -10,4 +10,14 @@ table.put_item({
       "ID" => 123456,
       "FirstName" => 'Snoop',
       "LastName" => 'Doug'
-}})
+    }
+  })
+
+table.put_item({
+  item:
+    {
+      "ID" => 484748,
+      "FirstName" => 'Wolfgang',
+      "LastName" => 'Mozart'
+    }
+  })
