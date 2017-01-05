@@ -26,8 +26,16 @@
   * Forum Example:
     * User table with Single Attribute primary key of userid
     * Forum Post table with Composite primary key of userid/post-timestamp
-    
-  
+
+
+## Indexes
+
+### Local Secondary Index
+
+
+
+
+
 
   
 
