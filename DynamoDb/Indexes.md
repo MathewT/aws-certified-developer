@@ -19,6 +19,14 @@
   * **Partition** is the physical location of the data storage
   * **Partition key values must be unique.  Not two items in a table can share the same partition key.**
   
+## Partition Key and Sort Key
+  * The Partition Key is used as to generate the internal hash to determine the data parttion (storage)
+  * The Partition Key can be duplicated but the sort key must be unique
+  * All items with the same Partition Key are stored together in sorted order by sort key value
+  * Forum Example:
+    * User table with Single Attribute primary key of userid
+    * Forum Post table with Composite primary key of userid/post-timestamp
+    
   
 
   
