@@ -17,8 +17,10 @@
   * DynamoDB uses the Partition Key as input to an internal hash function.  
   * The output of this hash function determines the data *partition*
   * **Partition** is the physical location of the data storage
+  * **Partition key values must be unique.  Not two items in a table can share the same partition key.**
   
   
+
   
 
 
