@@ -1,17 +1,12 @@
 # CloudFront Exam Study (Just the Important Stuff)
 
-## Edge Locations:  A physical location where content is cached.  Separate from a Region or AZ
+## Key Terms
 
-## Origin:  The source or origination point of the content.  
-(S3 bucket, EC2 instance, Elastic Load Balancer, Route53)
-
-## Distribution:  A name or label for a CDN consisting of a number of Edge Locations
-
-## Other Key Terms
-
+1. Edge Location: A physical location where content is cached.  Separate from a Region or AZ.
+1. Origin: A source or origination point of content (S3 bucket, EC2 instance, Elastic Load Balancer, Route53)
+1. Distribution: A name or label for a CDN consisting of a number of Edge Locations.
 1. Web distribution:  
-
-2. RTMP: Streaming Adobe Flash media files
+1. RTMP: Streaming Adobe Flash media files
 
 
 
