@@ -1,7 +1,6 @@
 # CloudFront 101 (Just the Important Stuff)
 
-## Edge Locations:  A physical location where content is cached.  Separate from
-a Region or AZ
+## Edge Locations:  A physical location where content is cached.  Separate from a Region or AZ
 
 ## Origin:  The source or origination point of the content.  
 (S3 bucket, EC2 instance, Elastic Load Balancer, Route53)
