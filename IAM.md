@@ -1,5 +1,7 @@
 # IAM
 
+AWS IAM manages **users** and their level of access to the AWS console.  
+
 ## Users
 1. IAM is universal, does not apply to regions.
 2. New users have NO permissions when first created.
