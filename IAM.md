@@ -3,6 +3,9 @@
 AWS IAM manages **users** and their level of access to the AWS console.  
 
 ## Users
+1. Centralized control of the AWS account
+1. Shared access to the AWS account
+1. Granular permissions to users to specifc services and levels for services
 1. IAM is universal, does not apply to regions.
 1. New users have NO permissions when first created.
 1. New users are assigned Access Key ID and Secret Access Key when first created.
