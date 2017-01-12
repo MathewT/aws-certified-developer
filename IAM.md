@@ -9,6 +9,7 @@ AWS IAM manages **users** and their level of access to the AWS console.
 1. Identity Federation including Facebook, Active Directory, LinkedIn, etc.) 
 1. Multifactor Authentication for console access
 1. Temporary access to resources.  E.g allow web or mobile users temporary access to DynamoDb or S3 to store data.  
+1. PCI/DSS compliance.   Compliance required for services accepting online payments
 1. IAM is universal, does not apply to regions.
 1. New users have NO permissions when first created.
 1. New users are assigned Access Key ID and Secret Access Key when first created.
