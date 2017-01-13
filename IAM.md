@@ -36,8 +36,8 @@ to AWS resources
 
 ## Policy Documents
 1. A document in JSON format in which you define the permissions of a role.
-1. Policy documents can be applied to users, groups and roles individually.
-1. Policy documents are JSON documents and are a key value pair.   Attribute/value
+1. Policy documents can be applied to users, groups or roles individually.
+1. Policy documents are JSON documents and are a key value pair. Attribute/value
 
 ## ADFS
 
