@@ -12,7 +12,7 @@ AWS IAM manages **users** and their level of access to the AWS console.
 1. PCI/DSS compliance.   Compliance required for services accepting online payments and storing credit card data
 
 ## Users
-1. Users are people who access the console or account resources
+1. Users are AWS identities associated to people who access the console or account resources
 1. IAM is universal, does not apply to regions.
 1. New users have NO permissions when first created.
 1. New users are assigned Access Key ID and Secret Access Key when first created.
@@ -23,8 +23,10 @@ AWS IAM manages **users** and their level of access to the AWS console.
 A group is a collection of users under one set of permissions.
 
 ## Roles
-1. You create roles and assign to resources (**better definition needed!**)
-
+1. A role is an AWS identity with permission policies that determine what the identity 
+can and cannot do in AWS
+1. 
+1. You create roles and assign to resources  
 
 ## Policy Documents
 
