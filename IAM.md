@@ -28,7 +28,10 @@ can and cannot do in AWS
 1. Roles are used to delegate access (permissions) to users, applications or services that don't normally have access 
 to AWS resources
 1. You create roles and assign to resources
-1. 
+1. You can grant users in one AWS account access to resources in another AWS account.
+1. Delegate access to AWS resources via IAM role:
+  * Allow a mobile app access to AWS resources without embedding key/secret
+  * Give access to AWS resources to users with identities outside AWS
 
 ## Policy Documents
 
