@@ -25,8 +25,10 @@ A group is a collection of users under one set of permissions.
 ## Roles
 1. A role is an AWS identity with permission policies that determine what the identity 
 can and cannot do in AWS
+1. Roles are used to delegate access (permissions) to users, applications or services that don't normally have access 
+to AWS resources
+1. You create roles and assign to resources
 1. 
-1. You create roles and assign to resources  
 
 ## Policy Documents
 
