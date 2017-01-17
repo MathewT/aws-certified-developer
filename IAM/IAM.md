@@ -1,5 +1,13 @@
 # IAM
 
+**Identity**
+  * User of resources
+  * Who are you
+  * Authentication
+
+**Access Management**
+  * Authorization
+  
 AWS IAM manages **users** and their level of access to the AWS console.  
 
 ## Main Features
