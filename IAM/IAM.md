@@ -1,4 +1,4 @@
-# IAM
+# Identity and Access Management (IAM)
 
 **Identity**
   * User of resources
@@ -12,8 +12,9 @@ AWS IAM manages **users** and their level of access to the AWS console.
 
 ## Main Features
 1. Centralized control of the AWS account
-1. Shared access to the AWS account
-1. Granular permissions to users to specifc services and levels for services
+1. Shared access to the AWS account.  Grant other identities permission to administer the account and/or use resources 
+without sharing keys or passwords
+1. Granular permissions to specific users (identities) to specifc services and levels for services
 1. Identity Federation including Facebook, Active Directory, LinkedIn, etc.) 
 1. Multifactor Authentication for console access
 1. Temporary access to resources.  E.g allow web or mobile users temporary access to DynamoDb or S3 to store data.  
