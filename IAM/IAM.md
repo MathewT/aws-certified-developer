@@ -67,6 +67,9 @@ replaced with a temporary identity within the AWS account
   the corporate directory and the AWS account
   1. Or, create an identity broker application to provide SSO access to the AWS Management Console via *custom federation broker*
 1. IAM users already have Internet identities 
+  1. Use any OpenId Connect (OIDC) compatible interent identity provider (Google, Facebook, LinkedIn, etc.) to allow 
+  users to identify themselves for access to AWS
+  1. **Best Practice:** Use Amazon Cognito for identity federation with Internet identity providers
 
 ## Groups
 
