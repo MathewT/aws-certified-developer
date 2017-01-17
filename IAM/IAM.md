@@ -56,7 +56,8 @@ to access the AWS account.
 1. Users with identities owned/established by other systems can have those identities *federated* into the AWS account
 1. The AWS user/identity who has already logged can still have their identity federated - their IAM user identity is 
 replaced with a temporary identity within the AWS account
-1. This federated user can then work with the AWS Console
+1. This *federated user* can then work with the AWS Console
+### Useful Federation Scenarios
 
 
 ## Groups
