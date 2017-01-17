@@ -27,6 +27,13 @@ to access the AWS account.
 1. Changes made via IAM to identity or resource permissions are "eventually consistent"
 1. Changes take time to fully replicate and take effect
 
+## Accessing IAM
+1. AWS Management Console
+1. AWS CLI
+1. AWS SDK
+1. IAM HTTPS API
+  * All requests must be digitally signed (requires code) with authorized credentials
+
 ## Users
 1. Users are AWS identities associated to people who access the console or account resources
 1. IAM is universal, does not apply to regions.
