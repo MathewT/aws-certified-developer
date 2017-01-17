@@ -57,8 +57,16 @@ to access the AWS account.
 1. The AWS user/identity who has already logged can still have their identity federated - their IAM user identity is 
 replaced with a temporary identity within the AWS account
 1. This *federated user* can then work with the AWS Console
-### Useful Federation Scenarios
 
+### Useful Federation Scenarios
+1. IAM users already have identities in a corporate directory
+  1. Corporate directory is compatible with Security Assertion Markup Language 2.0 (SAML 2.0)
+  1. Configure the corp directory to provide single sign-on (SSO) access to the AWS Management Console 
+  for users.  
+  1. Or, if the corporate directory is Microsoft Active Directory use AWS Directory Service to establish trust between 
+  the corporate directory and the AWS account
+  1. Or, create an identity broker application to provide SSO access to the AWS Management Console via *custom federation broker*
+1. IAM users already have Internet identities 
 
 ## Groups
 
