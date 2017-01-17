@@ -15,7 +15,9 @@ AWS IAM manages **users** and their level of access to the AWS console.
 1. Shared access to the AWS account.  Grant other identities permission to administer the account and/or use resources 
 without sharing keys or passwords
 1. Granular permissions to specific users (identities) to specifc services and levels for services
-1. Identity Federation including Facebook, Active Directory, LinkedIn, etc.) 
+1. Identity Federation.  Federate non-AWS user identities including identities from 
+Facebook, Active Directory, LinkedIn, etc.) to your AWS account.  Grant temporary access to these federated identities 
+to access the AWS account.
 1. Multifactor Authentication for console access
 1. Temporary access to resources.  E.g allow web or mobile users temporary access to DynamoDb or S3 to store data.  
 1. PCI/DSS compliance.   Compliance required for services accepting online payments and storing credit card data
