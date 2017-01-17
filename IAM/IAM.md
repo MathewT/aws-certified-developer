@@ -18,9 +18,14 @@ without sharing keys or passwords
 1. Identity Federation.  Federate non-AWS user identities including identities from 
 Facebook, Active Directory, LinkedIn, etc.) to your AWS account.  Grant temporary access to these federated identities 
 to access the AWS account.
+1. Identity information for assurance using CloudTrail.   Track which identities made requests for resources.
 1. Multifactor Authentication for console access
 1. Temporary access to resources.  E.g allow web or mobile users temporary access to DynamoDb or S3 to store data.  
 1. PCI/DSS compliance.   Compliance required for services accepting online payments and storing credit card data
+
+## Eventually Consistent
+1. Changes made via IAM to identity or resource permissions are "eventually consistent"
+1. Changes take time to fully replicate and take effect
 
 ## Users
 1. Users are AWS identities associated to people who access the console or account resources
