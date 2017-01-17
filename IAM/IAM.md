@@ -2,7 +2,7 @@
 
 **Identity**
   * User of resources
-  * Who are you
+  * "Who is the user?"
   * Authentication
 
 **Access Management**
@@ -34,12 +34,26 @@ to access the AWS account.
 1. IAM HTTPS API
   * All requests must be digitally signed (requires code) with authorized credentials
 
-## Users
+## First Time Access:  Root Account Credentials
+1. Creating an AWS account results in the creation of "root" identity which is used to sign-in into the AWS console
+1. *Root account credentials:* email and password
+1. Complete, unrestricted access to all resources including billing
+1. **Best Practice:** Do not use root account for day-to-day management
+1. **Best Practice:** Do not share root account credentials
+
+
+## IAM Users
 1. Users are AWS identities associated to people who access the console or account resources
-1. IAM is universal, does not apply to regions.
-1. New users have NO permissions when first created.
-1. New users are assigned Access Key ID and Secret Access Key when first created.
-1. Always setup Multi-factor authentication (MFA) on the root account.
+1. IAM is universal, does not apply to regions
+1. New users have NO permissions when first created
+1. New users are assigned Access Key ID and Secret Access Key when first created
+1. **Best Practice:** Always setup Multi-factor authentication (MFA) on the root account
+1. Each user can have their own password for Console access
+1. Each user can have their own access key for programmatic access to resources within the account
+1. Users can be non-human machine users
+
+## Federating Existing Users
+
 
 ## Groups
 
