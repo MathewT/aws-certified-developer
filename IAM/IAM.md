@@ -73,22 +73,29 @@ replaced with a temporary identity within the AWS account
 
 ## Groups
 
-A group is a collection of users under one set of permissions.
+A group is a collection of users under one set of permissions (policies)
 
 ## Policy Documents
-1. A document in JSON format in which you define the permissions of a role
+1. A document in JSON format in which you define a collection of permissions (1 or more) for a user or a group
 1. The policy document is the basic tool for granting permissions in IAM
 1. Policy documents can be applied to users, groups or roles individually
 1. Policy documents are JSON documents and are a key value pair. Attribute/value
+1. Any actions that are not explicitly allowed are denied by default
 
 **Example policy document:**
 
 { "Version": "2012-10-17", 
-  "Statement": { 
+
+  "Statement": {
+  
     "Effect": "Allow", 
+    
     "Action": "dynamodb:*", 
-    "Resource": "arn:aws:dynamodb:us-west-2: 123456789012: table/Books" 
+    
+    "Resource": "arn:aws:dynamodb:us-west-2: 123456789012:table/Books" 
+    
   }
+  
 }
 
 This policy grants permission to perform all DynamoDB operations on the Books table in the specified account.
