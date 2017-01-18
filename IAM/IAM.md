@@ -76,7 +76,7 @@ replaced with a temporary identity within the AWS account
 A group is a collection of users under one set of permissions (policies)
 
 ## Policy Documents and Policies
-1. A policy document in JSON format in which you define a collection of permissions (1 or more)
+1. A policy document in JSON format in which you define a collection of **permissions** (1 or more)
 1. The policy document is the basic tool for granting permissions in IAM
 1. Policy documents are JSON documents and are a key value pair. Attribute/value
 1. Any actions that are not explicitly allowed are denied by default
@@ -84,10 +84,10 @@ A group is a collection of users under one set of permissions (policies)
   * The policy document specifies the actions permitted and the specific resource
   * The policy can be *attached* to users, groups or roles individually
 1. **Resource-based policy:**
-  * Specify what actions are permitted (Effect, Action) and the specific resource (Resource)
+  * Specify what actions are permitted (Effect:, Action:) and the specific resource (Resource)
   * Specify *who* can access the resource (Principal)
   * ```"Principal": {" AWS": "arn:aws:iam:: 777788889999: user/ bob"}```
-  * Attach to the policy to an AWS account resource (e.g. S3 bucket)
+  * Attach the policy to an AWS account resource (e.g. S3 bucket)
 
 **Example policy document:**
 ```
@@ -104,6 +104,10 @@ This policy grants permission to perform all DynamoDB operations on the Books ta
 ## Roles
 1. A role is an AWS identity with permission policies that determine what the identity 
 can and cannot do in AWS
+1. Unlike IAM users, IAM roles are not associated or assigned to a specific user
+1. Roles can be used (**"assumed**) by a user or resource (EC2)
+1. Roles have no credentials (password or access key)
+1. If a user is assigned to a role, access keys are created dynamically and assigned to that user
 1. Roles are used to delegate access (permissions) to users, applications or services that don't normally have access 
 to AWS resources
 1. You create roles and assign to resources
