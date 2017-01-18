@@ -122,6 +122,8 @@ to AWS resources
 1. Delegate access to AWS resources via IAM role:
   * Allow a mobile app access to AWS resources without embedding key/secret
   * Give access to AWS resources to users with identities outside AWS
+1. Roles are the primary and proper way to grant cross-account access
+
 
 
 
