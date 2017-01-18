@@ -45,7 +45,7 @@ to access the AWS account.
 ## IAM Users
 1. Users are AWS identities associated to people who access the console or account resources
 1. IAM is universal, does not apply to regions
-1. New users have NO permissions when first created
+1. New users have NO permissions when first created, cannot access any resources
 1. New users are assigned Access Key ID and Secret Access Key when first created
 1. **Best Practice:** Always setup Multi-factor authentication (MFA) on the root account
 1. Each user can have their own password for Console access
@@ -75,6 +75,24 @@ replaced with a temporary identity within the AWS account
 
 A group is a collection of users under one set of permissions.
 
+## Policy Documents
+1. A document in JSON format in which you define the permissions of a role
+1. The policy document is the basic tool for granting permissions in IAM
+1. Policy documents can be applied to users, groups or roles individually
+1. Policy documents are JSON documents and are a key value pair. Attribute/value
+
+**Example policy document:**
+
+{ "Version": "2012-10-17", 
+  "Statement": { 
+    "Effect": "Allow", 
+    "Action": "dynamodb:*", 
+    "Resource": "arn:aws:dynamodb:us-west-2: 123456789012: table/Books" 
+  }
+}
+
+This policy grants permission to perform all DynamoDB operations on the Books table in the specified account.
+
 ## Roles
 1. A role is an AWS identity with permission policies that determine what the identity 
 can and cannot do in AWS
@@ -87,10 +105,7 @@ to AWS resources
   * Allow a mobile app access to AWS resources without embedding key/secret
   * Give access to AWS resources to users with identities outside AWS
 
-## Policy Documents
-1. A document in JSON format in which you define the permissions of a role.
-1. Policy documents can be applied to users, groups or roles individually.
-1. Policy documents are JSON documents and are a key value pair. Attribute/value
+
 
 ## ADFS
 
