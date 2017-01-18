@@ -101,16 +101,21 @@ A group is a collection of users under one set of permissions (policies)
 ```
 This policy grants permission to perform all DynamoDB operations on the Books table in the specified account.
 
-## Roles
-1. A role is an AWS identity with permission policies that determine what the identity 
+## IAM Roles
+1. A role is an AWS identity with permission policies (access to actions and resources) that determine what the identity 
 can and cannot do in AWS
-1. Unlike IAM users, IAM roles are not associated or assigned to a specific user
+1. Unlike IAM users, IAM roles are not associated or assigned to a specific user 
 1. Roles can be used (**"assumed**) by a user or resource (EC2)
 1. Roles have no credentials (password or access key)
 1. If a user is assigned to a role, access keys are created dynamically and assigned to that user
+1. Permissions are attached to the role
+1. IAM roles can be attached to:
+  * An IAM user in the same account as the role or different account as the role
+  * A web resource offered by AWS such as EC2
+  * An external user authenticated by an OIDC OpenId internet identity provider or SAML 2.0 compatible service
 1. Roles are used to delegate access (permissions) to users, applications or services that don't normally have access 
 to AWS resources
-1. You create roles and assign to resources
+1. You create roles and assign to users or resources
 1. Assigne IAM role to EC2 instance so instance apps can access S3 or DynamoDB
 1. You can grant users in one AWS account access to resources in another AWS account.
 1. Delegate access to AWS resources via IAM role:
