@@ -106,7 +106,7 @@ This policy grants permission to perform all DynamoDB operations on the Books ta
 1. A role is an AWS identity with permission policies (access to actions and resources) that determine what the identity 
 can and cannot do in AWS
 1. Unlike IAM users, IAM roles are not associated or assigned to a specific user 
-1. Roles can be used (**"assumed**) by a user or resource (EC2)
+1. Roles can be used (**"assumed"**) by a user or resource (EC2)
 1. Roles have no credentials (password or access key)
 1. If a user is assigned to a role, access keys are created dynamically and assigned to that user
 1. Permissions are attached to the role
