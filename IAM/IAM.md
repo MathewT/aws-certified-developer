@@ -85,17 +85,11 @@ A group is a collection of users under one set of permissions (policies)
 **Example policy document:**
 
 { "Version": "2012-10-17", 
-
   "Statement": {
-  
     "Effect": "Allow", 
-    
     "Action": "dynamodb:*", 
-    
     "Resource": "arn:aws:dynamodb:us-west-2: 123456789012:table/Books" 
-    
   }
-  
 }
 
 This policy grants permission to perform all DynamoDB operations on the Books table in the specified account.
