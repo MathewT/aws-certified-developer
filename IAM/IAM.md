@@ -88,6 +88,7 @@ A group is a collection of users under one set of permissions (policies)
   * Specify *who* can access the resource (Principal)
   * ```"Principal": {" AWS": "arn:aws:iam:: 777788889999: user/ bob"}```
   * Attach the policy to an AWS account resource (e.g. S3 bucket)
+1. A **Principal** is an AWS entity that can perform actions and access resources
 
 **Example policy document:**
 ```
