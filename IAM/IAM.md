@@ -75,12 +75,18 @@ replaced with a temporary identity within the AWS account
 
 A group is a collection of users under one set of permissions (policies)
 
-## Policy Documents
-1. A document in JSON format in which you define a collection of permissions (1 or more) for a user or a group
+## Policy Documents and Policies
+1. A policy document in JSON format in which you define a collection of permissions (1 or more)
 1. The policy document is the basic tool for granting permissions in IAM
-1. Policy documents can be applied to users, groups or roles individually
 1. Policy documents are JSON documents and are a key value pair. Attribute/value
 1. Any actions that are not explicitly allowed are denied by default
+1. **User-based policy:** 
+  * The policy document specifies the actions permitted and the specific resource
+  * The policy can be *attached* to users, groups or roles individually
+1. **Resource-based policy:**
+  * Specify what actions are permitted (Effect, Action) and the specific resource (Resource)
+  * Specify *who* can access the resource (Principal)
+  * e.g. "Principal": {" AWS": "arn:aws:iam:: 777788889999: user/ bob"}
 
 **Example policy document:**
 
