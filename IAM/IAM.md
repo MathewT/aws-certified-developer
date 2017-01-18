@@ -86,10 +86,10 @@ A group is a collection of users under one set of permissions (policies)
 1. **Resource-based policy:**
   * Specify what actions are permitted (Effect, Action) and the specific resource (Resource)
   * Specify *who* can access the resource (Principal)
-  * e.g. "Principal": {" AWS": "arn:aws:iam:: 777788889999: user/ bob"}
+  * ```"Principal": {" AWS": "arn:aws:iam:: 777788889999: user/ bob"}```
 
 **Example policy document:**
-
+```
 { "Version": "2012-10-17", 
   "Statement": {
     "Effect": "Allow", 
@@ -97,7 +97,7 @@ A group is a collection of users under one set of permissions (policies)
     "Resource": "arn:aws:dynamodb:us-west-2: 123456789012:table/Books" 
   }
 }
-
+```
 This policy grants permission to perform all DynamoDB operations on the Books table in the specified account.
 
 ## Roles
