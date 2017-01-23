@@ -129,7 +129,6 @@ to AWS resources
 1. IAM console users in an account can temporarily switch to a role and use the permissions of that role in the console.  
 Users give up their own permissions while they take on the permissions of the role.  Original permissions are restored 
 when the user exits the temporary role.
-
 1. An AWS app or service such as EC2 can *assume* a role for which to make programmatic requests to AWS services
 
 
