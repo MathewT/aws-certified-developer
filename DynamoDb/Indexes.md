@@ -4,7 +4,7 @@
 
 ### Single Attribute Primary Key
   * Partition Key (or Hash Key)
-  * On single piece of data (e.g. unique ID or SHA256 or unique name)
+  * One single piece of data (e.g. unique ID or SHA256 or unique name)
   
 ### Composite Primary Key
   * Composed of **two** attributes
