@@ -112,7 +112,7 @@ can and cannot do in AWS
 1. Permissions are attached to the role
 1. IAM roles can be attached to:
   * An IAM user in the same account as the role or different account as the role
-  * A web resource offered by AWS such as EC2
+  * A web or other resource offered by AWS such as EC2, Lambda, ...
   * An external user authenticated by an OIDC OpenId internet identity provider or SAML 2.0 compatible service
 1. Roles are used to delegate access (permissions) to users, applications or services that don't normally have access 
 to AWS resources
