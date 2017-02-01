@@ -51,6 +51,7 @@ to access the AWS account.
 1. Each user can have their own password for Console access
 1. Each user can have their own access key for programmatic access to resources within the account
 1. Users can be non-human machine users
+1. IAM users **can not** view the canonical user ID of the AWS account, only the root user can
 
 ## Federating Existing Users
 1. Users with identities owned/established by other systems can have those identities *federated* into the AWS account
