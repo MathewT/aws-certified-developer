@@ -7,7 +7,7 @@
     * Bucket Policies (permissions applied to the entire bucket)
     * Access Control Lists - can apply to buckets and/or individual objects in a bucket
     - Generate pre-signed URLs?
-  - Every bucket and object has an ACL attached as a **subresource**
+  - Every bucket and object has an ACL attached as a **sub-resource**
   - The ACL defines which AWS accounts or groups are granted access and the type of access
   - S3 Bucket Logging - Buckets can be configured to log all access requests;
   logging can be sent to another bucket, even a bucket in an another account
