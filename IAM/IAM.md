@@ -13,7 +13,7 @@ AWS IAM manages **users** and their level of access to the AWS console.
 ## Main Features
 1. Centralized control of the AWS account
 1. Shared access to the AWS account.  Grant other identities permission to administer the account and/or use resources 
-without sharing keys or passwords
+**without sharing keys or passwords**
 1. Granular permissions to specific users (identities) to specifc services and levels for services
 1. Identity Federation.  Federate non-AWS user identities including identities from 
 Facebook, Active Directory, LinkedIn, etc.) to your AWS account.  Grant temporary access to these federated identities 
@@ -77,9 +77,8 @@ replaced with a temporary identity within the AWS account
 A group is a collection of users under one set of permissions (policies)
 
 ## Policy Documents and Policies
-1. A policy document in JSON format in which you define a collection of **permissions** (1 or more)
+1. A policy document in JSON format (Attribute/value pairs) in which you define a collection of **permissions** (1 or more)
 1. The policy document is the basic tool for granting permissions in IAM
-1. Policy documents are JSON documents and are a key value pair. Attribute/value
 1. Any actions that are not explicitly allowed are denied by default
 1. **User-based policy:** 
   * The policy document specifies the actions permitted and the specific resource
@@ -106,10 +105,10 @@ This policy grants permission to perform all DynamoDB operations on the Books ta
 ## IAM Roles
 1. A role is an AWS identity with permission policies (access to actions and resources) that determine what the identity 
 can and cannot do in AWS
-1. Unlike IAM users, IAM roles are not associated or assigned to a specific user 
-1. Roles can be used (**"assumed"**) by a user or resource (EC2)
+1. Unlike IAM users, IAM roles do not identify a specific user 
+1. Roles can be used (**"assumed"**) by a user or resource (EC2, Lambda)
 1. Roles have no credentials (password or access key)
-1. If a user is assigned to a role, access keys are created dynamically and assigned to that user
+1. If a user is assigned to (assuming) a role, access keys are created dynamically and assigned to that user
 1. Permissions are attached to the role
 1. IAM roles can be attached to:
   * An IAM user in the same account as the role or different account as the role
@@ -132,8 +131,6 @@ to AWS resources
 Users give up their own permissions while they take on the permissions of the role.  Original permissions are restored 
 when the user exits the temporary role.
 1. An AWS app or service such as EC2 can *assume* a role for which to make programmatic requests to AWS services
-
-
 
 
 ## ADFS
