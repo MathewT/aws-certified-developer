@@ -23,3 +23,16 @@
 
 ## Design Principles
 
+### Scaling Vertically
+  - Scaling by increasing the specification of an individual service resource 
+  (e.g. upgrading a server with a larger hard drive, CPU or more RAM)
+  - Very limited scale story
+  - Not cost effective
+  - Easy to implement in the short term
+
+### Scaling Horizontally
+  - Takes place by increasing the number of resources of the same (consistent) 
+  specification
+  - Adding more hard drives, not bigger
+  - Adding more servers to an application
+  - 
