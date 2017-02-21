@@ -35,4 +35,11 @@
   specification
   - Adding more hard drives, not bigger
   - Adding more servers to an application
-  - 
+  - Requires an application architecture designed to distribute workload:
+
+#### Stateless Applications (Scaling Horizontally)
+  - Each application transaction requires no knowledge of prior transactions
+  - Stores no session information
+  - Enables horizontal scale as any app resource can service any app request
+  - Scale by simply adding more compute resources
+  - Compute resources do not need to be aware of peers
