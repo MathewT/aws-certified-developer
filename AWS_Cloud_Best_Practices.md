@@ -43,3 +43,11 @@
   - Enables horizontal scale as any app resource can service any app request
   - Scale by simply adding more compute resources
   - Compute resources do not need to be aware of peers
+  
+#### Stateless Components (Scaling Horizontally)
+  - In practice, most apps need to maintain some state
+  - One approach (partially stateless architecture), web apps store session information
+  in HTTP cookies at the client's browser (e.g. items in the shopping cart)
+  - Two problems with this approach:
+    - The content of HTTP cookies can be tampered with and should not be considered trustworthy
+    - HTTP cookies are transmitted with every request, potentially increasing latency
