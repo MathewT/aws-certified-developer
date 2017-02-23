@@ -61,3 +61,12 @@
   - **Best Practice:** For multi-step workflows requiring persistence of state from each step, 
   use Amazon Simple Workflow Service (SWF) to centrally store execution history and keep workloads stateless
   
+#### Stateful Components (Scaling Horizontally)
+  - Sometimes stateful components are unavoidable
+    - real time multiplayer games requiring a connection to a single server for long periods of time for 
+    lower latency (connected sockets)
+
+#### Distributed Processing (Scaling Horizontally)
+
+### Disposable Resources Instead of Fixed Servers
+  - *configuration drift* 
