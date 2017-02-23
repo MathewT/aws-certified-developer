@@ -51,3 +51,9 @@
   - Two problems with this approach:
     - The content of HTTP cookies can be tampered with and should not be considered trustworthy
     - HTTP cookies are transmitted with every request, potentially increasing latency
+  - **Best Practice:**  Store only a session identifier in the HTTP cookie and store more detailed 
+  session information on the server side
+  - **Best Practice:** Don't store detailed session information in the local file system, resulting in a 
+  stateful architecture
+  - **Best Practice:** Store detailed session information in a fast, flexible database such as DynamoDB
+  
