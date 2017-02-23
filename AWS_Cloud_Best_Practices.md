@@ -56,4 +56,8 @@
   - **Best Practice:** Don't store detailed session information in the local file system, resulting in a 
   stateful architecture
   - **Best Practice:** Store detailed session information in a fast, flexible database such as DynamoDB
+  - **Best Practice:** Avoid stateful architectures by using S3, EFS or other storage service to store 
+  larger files associated to users
+  - **Best Practice:** For multi-step workflows requiring persistence of state from each step, 
+  use Amazon Simple Workflow Service (SWF) to centrally store execution history and keep workloads stateless
   
