@@ -69,4 +69,5 @@
 #### Distributed Processing (Scaling Horizontally)
 
 ### Disposable Resources Instead of Fixed Servers
-  - *configuration drift* 
+  - *configuration drift*:  changes and patches applied through time resulting in untested and hetrogenous configurations across environments
+  - **Best practice:**  immutable infrastructure pattern.  
