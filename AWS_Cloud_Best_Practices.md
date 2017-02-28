@@ -71,3 +71,6 @@
 ### Disposable Resources Instead of Fixed Servers
   - *configuration drift*:  changes and patches applied through time resulting in untested and hetrogenous configurations across environments
   - **Best practice:**  immutable infrastructure pattern.  
+    - Once launched, a server is never updated in its lifetime
+    - Updates to servers are deployed to new servers with latest configuration and are tested
+    
