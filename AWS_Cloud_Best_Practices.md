@@ -68,9 +68,15 @@
 
 #### Distributed Processing (Scaling Horizontally)
 
-### Disposable Resources Instead of Fixed Servers
+## Disposable Resources Instead of Fixed Servers
   - *configuration drift*:  changes and patches applied through time resulting in untested and hetrogenous configurations across environments
   - **Best practice:**  immutable infrastructure pattern.  
     - Once launched, a server is never updated in its lifetime
     - Updates to servers are deployed to new servers with latest configuration and are tested
     
+### Instantiating Compute Resources
+
+  - Setting up compute resources (servers) must be automated and repeatable
+  - Bootstrapping (installation/config scripts at boot time)
+  - Golden Images (EBS volume snapshots)
+  
