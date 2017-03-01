@@ -79,4 +79,21 @@
   - Setting up compute resources (servers) must be automated and repeatable
   - Bootstrapping (installation/config scripts at boot time)
   - Golden Images (EBS volume snapshots)
+  - Golden images are better as they can result in faster, more reliable deployment and 
+  remove dependencies on 3rd party repos
+  - Hyrbrid - Golden images with bootstrap scripts on top
+  - Elastic Beanstalk is a hybrid model:  pre-defined images that are provisioned with bootstrapping
+  
+### Infrastructure as Code
+
+AWS assets are programmable, which allows best practices and techniques of software to your infrastructure
+
+## Automation
+  - Elastic Beanstalk
+  - EC2 Auto-recovery
+  - Auto-scaling
+  - Cloudwatch Alarms
+  - Cloudwatch Events
+  - OpsWorks Lifecycle Events
+  - Lambda Scheduled Events
   
