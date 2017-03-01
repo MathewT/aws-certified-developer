@@ -97,3 +97,16 @@ AWS assets are programmable, which allows best practices and techniques of softw
   - OpsWorks Lifecycle Events
   - Lambda Scheduled Events
   
+## Loose Coupling
+
+  - Large applications should be broken into smaller, loosely coupled components (a.k.a. micro-services)
+  - Reduce interdependencies
+  - Changes or failure in one component should not cascade into other components
+
+### Well Defined Interfaces
+  - RESTful APIs
+
+### Service Discovery
+  - 
+
+  
