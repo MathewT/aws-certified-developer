@@ -32,5 +32,7 @@ chmod 664 /var/www/html/.htaccess
 
 sudo service apache2 restart 
 
+## dump mysql database
 
+mysqldump --databases ms2db >> dump.sql  -u  ms2user -p
 
