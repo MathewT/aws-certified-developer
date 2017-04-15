@@ -10,7 +10,7 @@ sudo apt-get -y install mysql-client libmysqlclient-dev  zlib1g-dev libpcre3 lib
 
 sudo apt-get -y install apache2 apache2-utils
 
-sudo apt-get -y install php libapache2-mod-php php-mcrypt php-mysql php-gd php-curl
+sudo apt-get -y install php libapache2-mod-php php-mcrypt php-mysql php-gd php-curl php-mbstring php-xml
 
 sudo a2enmod rewrite
 
