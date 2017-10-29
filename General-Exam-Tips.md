@@ -2,7 +2,8 @@
 
 ## Super Important Links
 
-  - https://aws.amazon.com/certification/certified-developer-associate/
+  - https://aws.amazon.com/certification/certification-prep/ 
+  - https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS_certified_solutions_architect_associate_blueprint.6d9ea1982215fc5fcd05137937a6dd52e2b14efe.pdf
   - http://awstrainingandcertification.s3.amazonaws.com/production/AWS_certified_developer_associate_blueprint.pdf
 
 ## Exam Blueprint
