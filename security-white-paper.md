@@ -18,6 +18,20 @@
 
 ![SEC2](https://github.com/MathewT/aws-certified-developer/blob/master/images/security-white-paper-9.PNG)
 
+![SEC2](https://github.com/MathewT/aws-certified-developer/blob/master/images/security-white-paper-10.PNG)
+
+![SEC2](https://github.com/MathewT/aws-certified-developer/blob/master/images/security-white-paper-11.PNG)
+
+![SEC2](https://github.com/MathewT/aws-certified-developer/blob/master/images/security-white-paper-12.PNG)
+
+![SEC2](https://github.com/MathewT/aws-certified-developer/blob/master/images/security-white-paper-13.PNG)
+
+![SEC2](https://github.com/MathewT/aws-certified-developer/blob/master/images/security-white-paper-14.PNG)
+
+![SEC2](https://github.com/MathewT/aws-certified-developer/blob/master/images/security-white-paper-15.PNG)
+
+
+
 
 
 
