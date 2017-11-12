@@ -18,6 +18,6 @@
 ![Best-1](https://github.com/MathewT/aws-certified-developer/blob/master/images/best-practices-6.PNG)
 
 
-![White Paper](https://d1.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf)
+[White Paper](https://d1.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf)
 
 
